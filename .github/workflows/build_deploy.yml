@@ -52,7 +52,7 @@ jobs:
           yarn workspace webgui build --debug --distdir=$(pwd)/webgui-dist
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: webgui-dist
 
